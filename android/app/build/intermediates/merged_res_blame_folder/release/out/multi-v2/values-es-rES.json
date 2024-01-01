@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.gobazar.app-mergeReleaseResources-70:/values-es-rES/values-es-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Migo Supinho\\.gradle\\caches\\transforms-3\\be417d53729dd14bdf7121cd9bfd80d1\\transformed\\jetified-base-2.10.1\\res\\values-es-rES\\values-es-rES.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "83",
+                        "endOffsets": "134"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "83",
+                        "endOffsets": "179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Migo Supinho\\.gradle\\caches\\transforms-3\\ce41f824b2ca7fcffaaae09005dec247\\transformed\\jetified-ui-maps-2.10.1\\res\\values-es-rES\\values-es-rES.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endColumns": "94",
+                        "endOffsets": "190"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "94",
+                        "endOffsets": "274"
+                    }
+                }
+            ]
+        }
+    ]
+}

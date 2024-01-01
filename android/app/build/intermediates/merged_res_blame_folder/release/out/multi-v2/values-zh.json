@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.gobazar.app-mergeReleaseResources-70:/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Migo Supinho\\.gradle\\caches\\transforms-3\\d73ce848bba375ee7503929be675ed16\\transformed\\jetified-android-11.4.1\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,117,179",
+                        "endColumns": "61,61,62",
+                        "endOffsets": "112,174,237"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "680,742,804",
+                        "endColumns": "61,61,62",
+                        "endOffsets": "737,799,862"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Migo Supinho\\.gradle\\caches\\transforms-3\\c57e90624648ceda13748fce26f2b334\\transformed\\jetified-maps-logo-11.4.1\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "133",
+                        "endOffsets": "184"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1029",
+                        "endColumns": "133",
+                        "endOffsets": "1158"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Migo Supinho\\.gradle\\caches\\transforms-3\\37b61cf0514987ff891afeffb631c33b\\transformed\\jetified-maps-attribution-11.4.1\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,243,312,380,447,524,599",
+                        "endColumns": "80,106,68,67,66,76,74,161",
+                        "endOffsets": "131,238,307,375,442,519,594,756"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,136,243,312,380,447,524,867",
+                        "endColumns": "80,106,68,67,66,76,74,161",
+                        "endOffsets": "131,238,307,375,442,519,594,1024"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Migo Supinho\\.gradle\\caches\\transforms-3\\049c6cc1e42cac754077dbc899793614\\transformed\\jetified-maps-compass-11.4.1\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "80",
+                        "endOffsets": "131"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "599",
+                        "endColumns": "80",
+                        "endOffsets": "675"
+                    }
+                }
+            ]
+        }
+    ]
+}

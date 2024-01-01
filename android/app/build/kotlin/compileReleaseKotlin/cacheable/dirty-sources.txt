@@ -1,0 +1,2 @@
+C:\Users\Migo Supinho\3D Objects\gobazar_flutter\android\app\src\main\kotlin\com\migobernardo\gobazar\MainActivity.kt
+C:\Users\Migo Supinho\3D Objects\gobazar_flutter\android\app\src\main\kotlin\com\example\gobazar\MainActivity.kt

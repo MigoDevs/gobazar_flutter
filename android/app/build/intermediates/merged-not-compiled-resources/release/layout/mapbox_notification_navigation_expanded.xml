@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationExpandedNotificationLayout"
+    style="@android:style/TextAppearance.StatusBar.EventContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <include layout="@layout/mapbox_notification_navigation_collapsed" />
+
+    <TextView
+        android:id="@+id/endNavigationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/mapbox_notification_padding"
+        android:paddingEnd="@dimen/mapbox_notification_padding"
+        android:paddingStart="@dimen/mapbox_notification_padding"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/mapbox_ic_close"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        tools:text="@string/mapbox_end_navigation" />
+
+</LinearLayout>

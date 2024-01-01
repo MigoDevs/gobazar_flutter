@@ -47,7 +47,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        // Mapbox Maven repository
         maven {
             url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
             credentials {
@@ -59,7 +58,7 @@ buildscript {
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "com.android.tools.build:gradle:7.2.2" // Certifique-se de que o Android Gradle Plugin está atualizado
+        classpath "com.android.tools.build:gradle:7.3.0"
         classpath 'com.google.gms:google-services:4.4.2'
     }
 }
@@ -68,7 +67,6 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        // Mapbox Maven repository
         maven {
             url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
             credentials {
@@ -78,6 +76,7 @@ allprojects {
             authentication { basic(BasicAuthentication) }
         }
     }
+
 }
 
 rootProject.buildDir = "../build"
