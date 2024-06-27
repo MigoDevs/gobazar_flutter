@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442197648897",
+    "project_id": "gobazar-flutterv1",
+    "storage_bucket": "gobazar-flutterv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442197648897:android:687b9f222acc5b0f338200",
+        "android_client_info": {
+          "package_name": "com.migobernardo.gobazar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQMch7EiZUWdIxQFh8EbnNs-T1uF_CSxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

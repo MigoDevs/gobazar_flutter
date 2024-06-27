@@ -1,0 +1,94 @@
+//buildscript {
+//    ext.kotlin_version = "1.7.10"
+//    repositories {
+//        google()
+//        mavenCentral()
+//        // Mapbox Maven repository
+//        maven {
+//            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+//            // Do not change the username below. It should always be "mapbox" (not your username).
+//            credentials.username = "mapbox"
+//            // Use the secret token stored in gradle.properties as the password
+//            credentials.password = providers.gradleProperty("MAPBOX_DOWNLOADS_TOKEN").get()
+//            authentication { basic(BasicAuthentication) }
+//        }
+//
+//    }
+//    dependencies {
+//
+//        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//        classpath 'com.google.gms:google-services:4.4.2'
+//
+//
+//    }
+//}
+//
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+//
+//rootProject.buildDir = "../build"
+//subprojects {
+//    project.buildDir = "${rootProject.buildDir}/${project.name}"
+//}
+//subprojects {
+//    project.evaluationDependsOn(":app")
+//}
+//
+//tasks.register("clean", Delete) {
+//    delete rootProject.buildDir
+//}
+
+buildscript {
+    ext.kotlin_version = "1.9.0"
+    repositories {
+        google()
+        mavenCentral()
+        // Mapbox Maven repository
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials {
+                username = "mapbox"
+                password = project.findProperty("MAPBOX_DOWNLOADS_TOKEN") ?: ""
+            }
+            authentication { basic(BasicAuthentication) }
+        }
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.android.tools.build:gradle:7.2.2" // Certifique-se de que o Android Gradle Plugin está atualizado
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        // Mapbox Maven repository
+        maven {
+            url = uri("https://api.mapbox.com/downloads/v2/releases/maven")
+            credentials {
+                username = "mapbox"
+                password = project.findProperty("MAPBOX_DOWNLOADS_TOKEN") ?: ""
+            }
+            authentication { basic(BasicAuthentication) }
+        }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
+
